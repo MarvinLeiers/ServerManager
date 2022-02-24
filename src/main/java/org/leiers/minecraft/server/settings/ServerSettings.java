@@ -102,7 +102,7 @@ public class ServerSettings
 
         public ServerSettings build()
         {
-            DEFAULT_ARGS[1] = DEFAULT_ARGS[2].formatted(minRam);
+            DEFAULT_ARGS[1] = DEFAULT_ARGS[1].formatted(minRam);
             DEFAULT_ARGS[2] = DEFAULT_ARGS[2].formatted(maxRam);
             DEFAULT_ARGS[4] = DEFAULT_ARGS[4].formatted(jar.getAbsolutePath());
 
