@@ -54,7 +54,7 @@ public class ServerSettings
         private static final boolean DEFAULT_SHOW_GUI = true;
         private static final String[] DEFAULT_ARGS = {"java", "-Xms%dM", "-Xmx%dM","-jar", "%s"};
         private static final String[] DEFAULT_CUSTOM_ARGS = {};
-        private static final File DEFAULT_JAR = new File(System.getProperty("user.dir") + File.separator + "/spigot" +
+        private static final File DEFAULT_JAR = new File(System.getProperty("user.dir") + File.separator + "spigot" +
                 ".jar");
 
         private ServerSettings serverSettings;
