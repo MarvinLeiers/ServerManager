@@ -41,7 +41,7 @@ public class ServerManager
 
         // TODO: stop running servers.
 
-        System.out.println("Exiting...");
+        System.out.println("Exiting program.");
     }
 
     public boolean isEnabled()
