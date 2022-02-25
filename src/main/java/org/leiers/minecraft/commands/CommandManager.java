@@ -31,7 +31,6 @@ public class CommandManager extends Thread
     @Override
     public void run()
     {
-
         while (serverManager.isEnabled())
         {
             if (!scanner.hasNext())

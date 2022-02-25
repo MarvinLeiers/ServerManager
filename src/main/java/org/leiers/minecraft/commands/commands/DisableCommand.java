@@ -1,8 +1,8 @@
 package org.leiers.minecraft.commands.commands;
 
-import org.leiers.minecraft.server.ServerManager;
 import org.leiers.minecraft.commands.Command;
 import org.leiers.minecraft.commands.CommandInfo;
+import org.leiers.minecraft.server.ServerManager;
 
 @CommandInfo (
         name = "disable",

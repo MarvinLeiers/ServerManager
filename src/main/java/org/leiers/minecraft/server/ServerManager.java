@@ -24,7 +24,6 @@ public class ServerManager
         CommandManager commandManager = new CommandManager(scanner);
         commandManager.addCommand(new DisableCommand());
         commandManager.addCommand(new StartServer());
-
         commandManager.start();
 
         while (isEnabled())
